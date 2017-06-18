@@ -1,3 +1,64 @@
-body {
-  background:blue;
+body{
+  background:#d0e1e1;
+}
+
+h1 {
+  text-align:center;
+  font-size: 48px;
+  font-family: helvetica;
+}
+
+h2 {
+  font-size: 28px;
+  font-family: helvetica;
+  margin: 25px;
+}
+
+ul {
+  font-size: 16px;
+  font-family: georgia;
+}
+
+p {
+  font-size: 18px;
+  font-family: georgia;
+}
+
+.link {
+  font-size: 18px;
+  color: blue;
+}
+
+.link:visited {
+  color: green;
+}
+
+img {
+  margin: 0 auto;
+  display:block;
+}
+
+form {
+border:3px black solid;
+padding: 10px;
+width: 300px;
+}
+
+#info {
+  font-family: helvetica;
+  font-size: 14px;
+}
+
+.tuck {
+  background-image: url("https://scontent-ort2-1.cdninstagram.com/t51.2885-15/e35/18645756_426635251051768_4503007871071420416_n.jpg");
+}
+
+.message {
+  color: white;
+}
+
+@media only screen and (max-width: 768px) {
+    img {
+       width: 100%;
+    }
 }
