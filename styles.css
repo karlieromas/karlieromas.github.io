@@ -49,12 +49,17 @@ width: 300px;
   font-size: 14px;
 }
 
+.site_info {
+  font-size: 12px;
+}
+
 .tuck {
   background-image: url("https://scontent-ort2-1.cdninstagram.com/t51.2885-15/e35/18645756_426635251051768_4503007871071420416_n.jpg");
 }
 
 .message {
   color: white;
+  font-size: 28px;
 }
 
 @media only screen and (max-width: 768px) {
